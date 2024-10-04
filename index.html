@@ -1,0 +1,1963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="img/favv.png" />
+  <!-- ===============boostrap cdn================== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+
+  <!-- ==============google fonts============= -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Josefin+Sans:wght@200;300;400;500;600;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- ======================aos css cdn=================== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- ==========magnific-pop-up css============ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- ======================owl carrousel css==================================== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- ==================line awesome================ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- ==============custom css============== -->
+  <link rel="stylesheet" href="./css/custom.css" />
+  <link rel="stylesheet" href="./css/font-awesome.css" />
+
+  <!-- font-awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <title>Niavara</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10834732200"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "AW-10834732200");
+  </script>
+</head>
+
+<body>
+  <!-- back to top button -->
+  <div class="fixed-bottom" id="myBtn" onclick="topFunction()">
+    <div class="top-icon">
+      <a class="btn btn-primary" href="#"><i class="las la-arrow-up"></i></a>
+    </div>
+  </div>
+  <!-- back to top button -->
+
+  <!--side form button -->
+  <div class="form-button d-lg-none">
+    <div class="form">
+      <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+        ENQUIRE NOW
+      </a>
+    </div>
+  </div>
+  <!--side form button -->
+
+  <!--========= navber start=============== -->
+  <div class="section-nav bg-light">
+    <div class="container bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo1.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <img src="./img/manu.png" alt="">
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <!-- <li class="nav-item dropdown hover-active">
+                  <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    HOME
+                  </a>
+                  <div class="dropdown-menu hover-active" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">HOME 2</a>
+                    <a class="dropdown-item" href="#">HOME 3</a>
+                    <a class="dropdown-item" href="#">HOME 4</a>
+                  </div>
+                </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#overview">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#spacifications">Specification</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#amenities">Amenities</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#flattype">Floor Plan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#map">Location</a>
+            </li>
+          </ul>
+          <!-- Button trigger modal -->
+          <button class="btn my-2 my-sm-0" data-bs-toggle="modal" data-bs-target="#exampleModal1" type="submit">
+            ENQUIRE NOW
+          </button>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- ==================banner==================== -->
+  <!-- <div class="scetion-banner" id="banner">
+    <div class="banner-img">
+      <div class="container high">
+        <div class="row align-items-center high">
+          <div class="banner-text justify-content-center">
+            <div class="welcome">
+              <p data-aos="fade-down">welcome to</p>
+            </div>
+            <div class="heading">
+              <h1 data-aos="fade-down" data-aos-delay="100">
+                DEVALOKE SONARCITY
+              </h1>
+            </div>
+            <div class="text">
+              <p data-aos="fade-down" data-aos-delay="300">
+                Price starting from 44 Lakhs onwards
+              </p>
+            </div>
+            <div class="cta-btn" data-aos="fade-down" data-aos-delay="500">
+              <a class="btn my-2 my-sm-0" data-bs-toggle="modal" data-bs-target="#exampleModal1" type="submit">SCHEDULE
+                A PICKUP</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" class="carousel slide" data-bs-ride="carousel">
+    <!-- <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+    </div> -->
+    <div class="carousel-inner">
+      <div class="carousel-item carouselitemone active">
+        <div class="carousel-caption">
+          <h5>Limited Edition Homes</h5>
+          <h3>NIAVARA</h3>
+          <!-- <h2>Price starting from 44 Lakhs onwards</h2> -->
+        </div>
+      </div>
+      <!-- <div class="carousel-item carouselitemtwo">
+          <div class="carousel-caption">
+            <h5>welcome to</h5>
+            <h3>DEVALOKE SONARCITY</h3>
+            <h2>Price starting from 44 Lakhs onwards</h2>
+          </div>
+        </div>
+      </div> -->
+      <!--<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">-->
+      <!--  <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+      <!--  <span class="visually-hidden">Previous</span>-->
+      <!--</button>-->
+      <!--<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">-->
+      <!--  <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+      <!--  <span class="visually-hidden">Next</span>-->
+      <!--</button>-->
+    </div>
+
+    <a href="tel:+91 8037835837" class="calbtnbx d-md-block d-none">
+      <div class="calbtn">
+        <i class="fa-solid fa-phone"></i>
+        8037835837
+      </div>
+    </a>
+
+    <!-- ============overview start============= -->
+
+    <div class="section section-overview" id="overview">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="image">
+              <img src="img/abutus.jpg" data-aos="zoom-in" alt="luxuary_building image" />
+            </div>
+            <!-- <div class="cta-btn">
+            <button class="btn mt-md-5 mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal2" type="submit">
+              DOWNLOAD BROCHURE
+            </button>
+          </div> -->
+            <div class="polka"></div>
+          </div>
+          <div class="col-md-6">
+            <div class="text-outer">
+              <div class="heading">
+                <p data-aos="fade-up">highrise high life brought to life like never before</p>
+                <!-- <h2 data-aos="fade-up" data-aos-delay="100">
+                  DEVALOKE SONARCITY
+                </h2> -->
+              </div>
+              <div class="para" data-aos="fade-up" data-aos-delay="300">
+                <p>
+                  Celebrate ultra-luxe global standards in your way of living. The tallest luxury condominium in central
+                  Kolkata will take your breath away. Imagine sky-kissing balconies attached to every bedroom, expect
+                  every conceivable creature comfort built in. And enjoy the luxury of your 3-sides open apartment.
+                </p>
+              </div>
+
+              <div class="amenities-collapse collapse" id="ami-collapse" aria-expand="false">
+                <ul class="points" data-aos="fade-up" data-aos-delay="500">
+                  <li>
+                    3, 4 BHK
+
+                  </li>
+                  <hr />
+                  <li>
+                    2 Balconies
+                  </li>
+                  <hr />
+                  <li>3 Sides Open</li>
+                  <hr />
+                  <li class="pb-3">Limited Penthouses</li>
+
+                </ul>
+              </div>
+              <div class="overtwobtn">
+                <div class="cta-btn justify-content-center">
+                  <a class="btn my-2 my-sm-0" type="button" data-bs-toggle="collapse" data-bs-target="#ami-collapse" aria-expanded="false" aria-controls="ami-collapse" id="less">VIEW MORE</a>
+                </div>
+                <!-- <div class="cta-btn">
+                  <button class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2" type="submit">
+                    REQUEST PRICE
+                  </button>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="section section-overview spacificationcvr" id="spacifications">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6">
+            <div class="text-outer">
+              <div class="heading">
+                <!-- <p data-aos="fade-up">Specification</p> -->
+                <p data-aos="fade-up" style="color: black;">Poetry in spatial elegance</p>
+                <!-- <h2 data-aos="fade-up" data-aos-delay="100">
+                  DEVALOKE SONARCITY
+                </h2> -->
+              </div>
+
+              <div class="para" data-aos="fade-up" data-aos-delay="300">
+                <h4>SUPER STRUCTURE</h4>
+                <!-- <p>
+                  Celebrate ultra-luxe global standards in your way of living. The tallest luxury condominium in central Kolkata will take your breath away. Imagine sky-kissing balconies attached to every bedroom, expect every conceivable creature comfort built in. And enjoy the luxury of your 3-sides open apartment.
+                </p> -->
+                <ul class="points" data-aos="fade-up" data-aos-delay="500">
+                  <li>
+                    RCC Frames / Formwork Structure with pile foundation
+                  </li>
+                </ul>
+
+                <h4>WALL FINISH</h4>
+                <ul class="points" data-aos="fade-up" data-aos-delay="500">
+                  <li>
+                    Plaster of Paris (POP) / Putty / Gypsum Plaster finish
+                  </li>
+                  <hr />
+                  <li>
+                    Non-toxic, Low-VOC Paint
+                  </li>
+                  <hr />
+                  <li>
+                    Exterior Weather Proof Paint
+                  </li>
+                </ul>
+              </div>
+
+              <div class="amenities-collapse collapse" id="ami-collapse1" aria-expand="false">
+
+
+                <div class="para" data-aos="fade-up" data-aos-delay="300">
+                  <h4>FLOORING</h4>
+                  <!-- <p>
+                  Celebrate ultra-luxe global standards in your way of living. The tallest luxury condominium in central Kolkata will take your breath away. Imagine sky-kissing balconies attached to every bedroom, expect every conceivable creature comfort built in. And enjoy the luxury of your 3-sides open apartment.
+                </p> -->
+                  <ul class="points" data-aos="fade-up" data-aos-delay="500">
+                    <li>
+                      Vitrified tiles in the bed rooms, living / dining room
+                    </li>
+                  </ul>
+
+                  <h4>KITCHEN</h4>
+                  <ul class="points" data-aos="fade-up" data-aos-delay="500">
+                    <li>
+                      Granite Platform with honed edges
+                    </li>
+                    <hr />
+                    <li>
+                      Stainless Steel sink
+                    </li>
+                    <hr />
+                    <li>
+                      Dado of ceramic tiles upto 3ft above the kitchen counter Exhaust point
+                    </li>
+                    <hr />
+                    <li>
+                      Flooring - Anti Skid Ceramic tiles / Vitrified tiles
+                    </li>
+                  </ul>
+
+
+                  <h4>TOILET</h4>
+                  <ul class="points" data-aos="fade-up" data-aos-delay="500">
+                    <li>
+                      Flooring- Anti Skid Ceramic tiles / Vitrified tiles
+                    </li>
+                    <hr />
+                    <li>
+                      Toilet Walls- Standard Ceramic / Vitrified tiles on the walls up to ceiling / false ceiling (if
+                      applicable)
+                    </li>
+                    <hr />
+                    <li>
+                      Sanitary ware of Hindware / Kohler / Toto or equivalent make CP fittings of Jaguar / Hindware /
+                      Kohler / Grohe or equivalent make Electrical point for Geyser and Exhaust Fan
+                    </li>
+                    <hr />
+                    <li>
+                      Plumbing provision for Hot / Cold Water line
+                    </li>
+                  </ul>
+
+
+                  <h4>DOORS & WINDOWS</h4>
+                  <ul class="points" data-aos="fade-up" data-aos-delay="500">
+                    <li>
+                      Door Frame-made of seasoned and treated wood
+                    </li>
+                    <hr />
+                    <li>
+                      Main Door- Polished flush doors
+                    </li>
+                    <hr />
+                    <li>
+                      Main Door Fittings: Godrej or similar make
+                    </li>
+                    <hr />
+                    <li>
+                      Internal Doors Flush doors
+                    </li>
+                    <hr />
+                    <li>
+                      Windows powder coated aluminium / UPVC windows
+                    </li>
+                  </ul>
+
+
+
+
+                  <h4>ELECTRICALS</h4>
+                  <ul class="points" data-aos="fade-up" data-aos-delay="500">
+                    <li>
+                      Concealed Copper wiring of reputed brands
+                    </li>
+                    <hr />
+                    <li>
+                      Telephone wiring in Living or Dining Area
+                    </li>
+                    <hr />
+                    <li>
+                      Electricals points in all bedrooms, living / dining, kitchen, toilets
+                    </li>
+                    <hr />
+                    <li>
+
+                      AC points in living/ dining and all the bedrooms
+                    </li>
+                    <hr />
+                    <li>
+                      Modular switches of reputed brands
+                    </li>
+                    <hr />
+                    <li>
+                      Lifts of reputed brands like Otis / Kone or similar
+                    </li>
+                    <hr />
+                    <li>
+                      EV charging stations
+                    </li>
+                  </ul>
+
+
+                  <h4>GENERATOR</h4>
+                  <ul class="points" data-aos="fade-up" data-aos-delay="500">
+                    <li>
+                      Provision for standby supply in every Unit (at extra cost)
+                    </li>
+                    <hr />
+                    <li>
+                      Power back-up for common area facilities
+                    </li>
+                    <hr />
+                    <li>
+                      Strategic use of Solar panels
+                    </li>
+                  </ul>
+
+
+
+                  <h4>COMMON LIGHTING</h4>
+                  <ul class="points" data-aos="fade-up" data-aos-delay="500">
+                    <li>
+                      Overhead Illumination for compound and pathway lighting
+                    </li>
+                    <hr />
+                    <li>
+                      Necessary Illumination in all lobbies, staircases and common areas
+                    </li>
+                  </ul>
+
+
+                  <h4>COMMON AREAS</h4>
+                  <ul class="points" data-aos="fade-up" data-aos-delay="500">
+                    <li>
+                      Well developed common lobbies
+                    </li>
+                    <hr />
+                    <li>
+                      Equipments and connectivity for Intercom facility in each apartment
+                    </li>
+                  </ul>
+
+
+
+
+
+
+
+                </div>
+
+
+
+                <!-- <ul class="points" data-aos="fade-up" data-aos-delay="500">
+                  <li>
+                    3, 4 BHK
+
+                  </li>
+                  <hr />
+                  <li>
+                    2 Balconies
+                  </li>
+                  <hr />
+                  <li>3 Sides Open</li>
+                  <hr />
+                  <li class="pb-3">Limited Penthouses</li>
+                  
+                </ul> -->
+              </div>
+              <div class="overtwobtn">
+                <div class="cta-btn justify-content-center">
+                  <a class="btn my-2 my-sm-0" type="button" data-bs-toggle="collapse" data-bs-target="#ami-collapse1" aria-expanded="false" aria-controls="ami-collapse" id="less">VIEW MORE</a>
+                </div>
+                <!-- <div class="cta-btn">
+                  <button
+                    class="btn"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2"
+                    type="submit"
+                  >
+                  REQUEST PRICE
+                  </button>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="image">
+              <img src="img/siteimg.png" data-aos="zoom-in" alt="luxuary_building image" />
+            </div>
+            <!-- <div class="cta-btn">
+            <button class="btn mt-md-5 mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal2" type="submit">
+              DOWNLOAD BROCHURE
+            </button>
+          </div> -->
+            <!-- <div class="polka"></div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- gallery top start -->
+    <!-- <div class="section section-gallery">
+      <div class="polka"></div>
+
+      <div class="gallery">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="text-outer">
+                <div class="heading">
+                  <p data-aos="fade-up">About</p>
+                  <h2 data-aos="fade-up" data-aos-delay="100">
+                    Going Above and Beyond To Find Your Next Home
+                  </h2>
+                </div>
+                <div class="para">
+                  <p data-aos="fade-up" data-aos-delay="300">
+                    Devaloke Group is one of the known real estate brands in
+                    Kolkata South.The builder has delivered 4 projects so far.
+                    <br />
+                    Here’s everything you need to know about the must-know
+                    features of this housing society along with Devaloke Sonar
+                    City Price List, Photos,Floor Plans, Payment Plans, Brochure
+                    download procedure and other exciting facts about your
+                    future home. Devaloke Sonar city is spread over an area of
+                    12.52 acres.there are around 1052 units to offer.Devaloke
+                    Sonar City is situated near Kamalgazi & Em Bypass with 20
+                    towers of 11 & 12 towers built in phases. For more
+                    assistance request a callback.
+                  </p>
+                  <p data-aos="fade-up" data-aos-delay="300">
+                    A neighbourhood where people can meet, make friends,
+                    celebrate together and enjoy life of bliss.
+                  </p>
+                </div>
+                <div class="cta-btn d-none d-lg-block">
+                  <button
+                    class="btn my-2 my-sm-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal1"
+                    type="submit"
+                  >
+                    ENQUIRE NOW
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="image-outer image-magni">
+                <div class="image">
+                  <a href="img/overview2.webp">
+                    <img data-aos="zoom-in" src="img/overview2.webp" alt=""
+                  /></a>
+                </div>
+                <div class="cta-btn">
+                  <a
+                    class="btn my-2 my-sm-0"
+                    href="img/elevation.webp"
+                    type="button"
+                    >MORE IMAGES</a
+                  >
+                  <a href="img/g1.webp"></a>
+                  <a href="img/g2.webp"></a>
+                  <a href="img/g3.webp"></a>
+                  <a href="img/g4.webp"></a>
+                  <a href="img/g5.webp"></a>
+                  <a href="img/g6.webp"></a>
+                  <a
+                    href="img/DevalokeSonarcity_kamalgazi_Indoorgames.webp"
+                  ></a>
+                  <a href="img/g8.webp"></a>
+                  <a href="img/g9.webp"></a>
+                  <a href="img/g10.webp"></a>
+                  <a href="img/new more.webp"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- gallery top start -->
+
+    <!-- spacification section start -->
+
+    <!-- <div class="spacificvr">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="socifitext">
+              <div class="spacifsthd">
+                <h4>SPECIFICATION</h4>
+              </div>
+              <div class="spacisndhd">
+                <h2> Poetry in spatial elegance</h2>  
+              </div>
+              <div class="spaciparentbx">
+
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- spacification section end -->
+
+    <!-- amenities start -->
+
+    <div class="section section-amenities" id="amenities">
+      <!-- <div class="polka"></div> -->
+      <div class="container">
+        <div class="row ">
+          <div class="col-md-12">
+            <div class="heading">
+              <h2 class="h2-top-txt" data-aos="fade-up">Where niavara is located</h2>
+              <!-- <h2 data-aos="fade-up">Amenities & Facilities</h2> -->
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row fisgrid">
+          <div class="col-md-4">
+            <div class="amen-card">
+              <div class="d-flex align-items-center" data-aos="zoom-in">
+                <div class="flex-shrink-0">
+                  <div class="amen">
+                    <!-- <i class="las la-glass-cheers"></i> -->
+                    <img src="img/icon1.png" />
+                  </div>
+                </div>
+                <div class="flex-grow-1 ms-md-3 txt">
+                  <h5>Moulali Crossing</h5>
+                  <p>400 m</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="amen-card">
+              <div class="d-flex align-items-center" data-aos="zoom-in">
+                <div class="flex-shrink-0">
+                  <div class="amen">
+                    <!-- <i class="las la-coffee"></i> -->
+                    <img src="img/icon2.png" />
+                  </div>
+                </div>
+                <div class="flex-grow-1 ms-md-3 txt">
+                  <h5>Calcutta Boys’ School</h5>
+                  <p>500m</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="amen-card">
+              <div class="d-flex align-items-center" data-aos="zoom-in">
+                <div class="flex-shrink-0">
+                  <div class="amen">
+                    <!-- <i class="las la-table-tennis"></i> -->
+                    <img src="img/icon3.png" />
+                  </div>
+                </div>
+                <div class="flex-grow-1 ms-md-3 txt">
+                  <h5>Sealdah Railway Station</h5>
+                  <p>1.2 km</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="amen-card">
+              <div class="d-flex align-items-center" data-aos="zoom-in" data-aos-delay="300">
+                <div class="flex-shrink-0">
+                  <div class="amen">
+                    <!-- <i class="las la-swimming-pool"></i> -->
+                    <img src="img/icon4.png" />
+                  </div>
+                </div>
+                <div class="flex-grow-1 ms-md-3 txt">
+                  <h5>St James’ School</h5>
+                  <p>1.3 km</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="amen-card">
+              <div class="d-flex align-items-center" data-aos="zoom-in" data-aos-delay="400">
+                <div class="flex-shrink-0">
+                  <div class="amen">
+                    <!-- <i class="las la-dumbbell"></i> -->
+                    <img src="img/icon5.png" />
+                  </div>
+                </div>
+                <div class="flex-grow-1 ms-md-3 txt">
+                  <h5>Maa Flyover</h5>
+                  <p>3.4 km</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="amen-card">
+              <div class="d-flex align-items-center" data-aos="zoom-in" data-aos-delay="500">
+                <div class="flex-shrink-0">
+                  <div class="amen">
+                    <!-- <i class="las la-volume-up"></i> -->
+                    <img src="img/icon6.png" />
+                  </div>
+                </div>
+                <div class="flex-grow-1 ms-md-3 txt">
+                  <h5>Park Street</h5>
+                  <p>2.2km</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+        <div class="amenities-collapse collapse" id="ami-collapse3" aria-expand="false">
+          <div class="row sndrow">
+            <div class="col-md-4">
+              <div class="amen-card">
+                <div class="d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="flex-shrink-0">
+                    <div class="amen">
+                      <!-- <i class="las la-running"></i> -->
+                      <img src="img/icon7.png" />
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-md-3 txt">
+                    <h5>New Market Area
+                    </h5>
+                    <p>2.3 km
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="amen-card">
+                <div class="d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="flex-shrink-0">
+                    <div class="amen">
+                      <!-- <i class="las la-running"></i> -->
+                      <img src="img/icon8.png" />
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-md-3 txt">
+                    <h5>Bhagirathi Neotia Hospital</h5>
+                    <p>2.5 km
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="amen-card">
+                <div class="d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="flex-shrink-0">
+                    <div class="amen">
+                      <!-- <i class="las la-fish"></i> -->
+                      <img src="img/icon9.png" />
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-md-3 txt">
+                    <h5>Apollo Gleneagles Hospital</h5>
+                    <p>6.1 km</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="amen-card">
+                <div class="d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="flex-shrink-0">
+                    <div class="amen">
+                      <!-- <i class="las la-laugh-beam"></i> -->
+                      <img src="img/icon10.png" />
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-md-3 txt">
+                    <h5>7 Convent Road, in the heart of Central Kolkata</h5>
+                    <!-- <p>Live, laugh, love… and Graduate</p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <!-- <div class="amen-card">
+                  <div class="d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="flex-shrink-0">
+                      <div class="amen">
+                        <img src="img/bus.webp" />
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-md-3 txt">
+                      <h5>AC Bus Service</h5>
+                      <p>Badminton Court</p>
+                    </div>
+                  </div>
+                </div> -->
+            </div>
+          </div>
+        </div>
+        <!-- <div class="amenities-collapse collapse" id="ami-collapse" aria-expand="false">
+                    <div class="row">
+                        <div class="col-md-4 ">
+                            <div class="amen-card">
+                                <div class="d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
+                                    <div class="flex-shrink-0">
+                                        <div class="amen">
+                                            <i class="las la-school"></i>
+                                        </div>
+                                    </div>
+                                    <div class="flex-grow-1 ms-md-3 txt">
+                                        <h5>
+                                            Spa
+                                        </h5>
+                                        <p>Badminton Court </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+        <div class="cta-btn justify-content-center">
+          <a class="btn my-2 my-sm-0" type="button" data-bs-toggle="collapse" data-bs-target="#ami-collapse3" aria-expanded="false" aria-controls="ami-collapse" id="less">VIEW MORE</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===========flat-type start=========== -->
+
+    <div class="section flat-type" id="flattype">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="heading">
+              <!-- <p class="h2-top-txt" data-aos="fade-up">floor plan</p> -->
+              <h2 data-aos="fade-up" data-aos-delay="100">
+                Floor plan
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-md-12">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+                  LANDSCAPE PLANS
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                  3 BHK Flat B
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                  3 BHK Flat C
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact1-tab" data-bs-toggle="tab" data-bs-target="#contact1" type="button" role="tab" aria-controls="contact1" aria-selected="false">
+                  4 BHK Flat A
+                </button>
+              </li>
+              <!-- <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact2-tab" data-bs-toggle="tab" data-bs-target="#contact2" type="button"
+                  role="tab" aria-controls="contact2" aria-selected="false">
+                  Type 5
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact3-tab" data-bs-toggle="tab" data-bs-target="#contact3" type="button"
+                  role="tab" aria-controls="contact3" aria-selected="false">
+                  Type 6
+                </button>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <!-- <div class="polka d-none d-lg-block"></div> -->
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="row">
+                <!-- <div class="col-md-5">
+                <div class="heading" data-aos="fade-up" data-aos-delay="300">
+                  <p>Specifications</p>
+                </div>
+                <div class="para" data-aos="fade-up" data-aos-delay="300">
+                  <p>
+                    Foundation Pile foundation (G+11/G+12) 95’ depth, Isolated
+                    foundation (G+4) 6' depth. Depth depends on soil
+                    test.Walls Conventional Bricks/Concrete bricks/Fly ash
+                    bricks.Wall Finishing Interior walls & ceiling:
+                    POP.Exterior: Single Coat primer with double coat of
+                    Weatherproof (Asian paints or eq.). Vitrified Tiles
+                    ,Aluminum sliding with normal glass / Casement( Hindalco
+                    glass or eq.)
+                  </p>
+                </div>
+                <div class="table" data-aos="fade-up" data-aos-delay="500">
+                  <table>
+                    <tr>
+                      <th>Configuration</th>
+                      <th>Chargeable area</th>
+                    </tr>
+                    <tr>
+                      <td>2 BHK</td>
+                      <td>838-950 sq.ft</td>
+                    </tr>
+                    <tr>
+                      <td>3 BHK</td>
+                      <td>1076-1463 sq.ft</td>
+                    </tr>
+                  </table>
+                </div>
+              </div> -->
+                <div class="col-md-12">
+                  <div class="image">
+                    <a href="img/m1.jpg">
+                      <img src="img//m1.jpg" data-aos="zoom-in" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="row">
+                <!-- <div class="col-md-5">
+                <div class="heading">
+                  <p>Specifications</p>
+                </div>
+                <div class="para">
+                  <p>
+                    Foundation Pile foundation (G+11/G+12) 95’ depth, Isolated
+                    foundation (G+4) 6' depth. Depth depends on soil
+                    test.Walls Conventional Bricks/Concrete bricks/Fly ash
+                    bricks.Wall Finishing Interior walls & ceiling:
+                    POP.Exterior: Single Coat primer with double coat of
+                    Weatherproof (Asian paints or eq.). Vitrified Tiles
+                    ,Aluminum sliding with normal glass / Casement( Hindalco
+                    glass or eq.)
+                  </p>
+                </div>
+                <div class="table" data-aos="zoom-in">
+                  <table>
+                    <tr>
+                      <th>Configuration</th>
+                      <th>Chargeable area</th>
+                    </tr>
+                    <tr>
+                      <td>2 BHK</td>
+                      <td>838-950 sq.ft</td>
+                    </tr>
+                    <tr>
+                      <td>3 BHK</td>
+                      <td>1076-1463 sq.ft</td>
+                    </tr>
+                  </table>
+                </div>
+              </div> -->
+                <div class="col-md-12">
+                  <div class="image">
+                    <a href="img/m2.jpg">
+                      <img src="img/m2.png" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+              <div class="row">
+                <!-- <div class="col-md-5">
+                <div class="heading">
+                  <p>Specifications</p>
+                </div>
+                <div class="para">
+                  <p>
+                    Foundation Pile foundation (G+11/G+12) 95’ depth, Isolated
+                    foundation (G+4) 6' depth. Depth depends on soil
+                    test.Walls Conventional Bricks/Concrete bricks/Fly ash
+                    bricks.Wall Finishing Interior walls & ceiling:
+                    POP.Exterior: Single Coat primer with double coat of
+                    Weatherproof (Asian paints or eq.). Vitrified Tiles
+                    ,Aluminum sliding with normal glass / Casement( Hindalco
+                    glass or eq.)
+                  </p>
+                </div>
+                <div class="table">
+                  <table>
+                    <tr>
+                      <th>Configuration</th>
+                      <th>Chargeable area</th>
+                    </tr>
+                    <tr>
+                      <td>2 BHK</td>
+                      <td>838-950 sq.ft</td>
+                    </tr>
+                    <tr>
+                      <td>3 BHK</td>
+                      <td>1076-1463 sq.ft</td>
+                    </tr>
+                  </table>
+                </div>
+              </div> -->
+                <div class="col-md-12">
+                  <div class="image">
+                    <a href="img/m3.png">
+                      <img src="img/m3.png" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="contact1" role="tabpanel" aria-labelledby="contact1-tab">
+              <div class="row">
+                <!-- <div class="col-md-5">
+                <div class="heading">
+                  <p>Specifications</p>
+                </div>
+                <div class="para">
+                  <p>
+                    Foundation Pile foundation (G+11/G+12) 95’ depth, Isolated
+                    foundation (G+4) 6' depth. Depth depends on soil
+                    test.Walls Conventional Bricks/Concrete bricks/Fly ash
+                    bricks.Wall Finishing Interior walls & ceiling:
+                    POP.Exterior: Single Coat primer with double coat of
+                    Weatherproof (Asian paints or eq.). Vitrified Tiles
+                    ,Aluminum sliding with normal glass / Casement( Hindalco
+                    glass or eq.)
+                  </p>
+                </div>
+                <div class="table">
+                  <table>
+                    <tr>
+                      <th>Configuration</th>
+                      <th>Chargeable area</th>
+                    </tr>
+                    <tr>
+                      <td>2 BHK</td>
+                      <td>838-950 sq.ft</td>
+                    </tr>
+                    <tr>
+                      <td>3 BHK</td>
+                      <td>1076-1463 sq.ft</td>
+                    </tr>
+                  </table>
+                </div>
+              </div> -->
+                <div class="col-md-12">
+                  <div class="image">
+                    <a href="img/m4.png">
+                      <img src="img/m4.png" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="contact2" role="tabpanel" aria-labelledby="contact2-tab">
+              <div class="row">
+                <!-- <div class="col-md-5">
+                <div class="heading">
+                  <p>Specifications</p>
+                </div>
+                <div class="para">
+                  <p>
+                    Foundation Pile foundation (G+11/G+12) 95’ depth, Isolated
+                    foundation (G+4) 6' depth. Depth depends on soil
+                    test.Walls Conventional Bricks/Concrete bricks/Fly ash
+                    bricks.Wall Finishing Interior walls & ceiling:
+                    POP.Exterior: Single Coat primer with double coat of
+                    Weatherproof (Asian paints or eq.). Vitrified Tiles
+                    ,Aluminum sliding with normal glass / Casement( Hindalco
+                    glass or eq.)
+                  </p>
+                </div>
+                <div class="table">
+                  <table>
+                    <tr>
+                      <th>Configuration</th>
+                      <th>Chargeable area</th>
+                    </tr>
+                    <tr>
+                      <td>2 BHK</td>
+                      <td>838-950 sq.ft</td>
+                    </tr>
+                    <tr>
+                      <td>3 BHK</td>
+                      <td>1076-1463 sq.ft</td>
+                    </tr>
+                  </table>
+                </div>
+              </div> -->
+                <!-- <div class="col-md-12">
+                  <div class="image">
+                    <a href="img/Devaloke Sonarcity kamalgachi-BL-15 to 19.webp">
+                      <img src="img/Devaloke Sonarcity kamalgachi-BL-15 to 19.webp" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+                <div class="tab-pane fade" id="contact3" role="tabpanel" aria-labelledby="contact3-tab">
+                  <div class="row">
+                    <!-- <div class="col-md-5">
+                <div class="heading">
+                  <p>Specifications</p>
+                </div>
+                <div class="para">
+                  <p>
+                    Foundation Pile foundation (G+11/G+12) 95’ depth, Isolated
+                    foundation (G+4) 6' depth. Depth depends on soil
+                    test.Walls Conventional Bricks/Concrete bricks/Fly ash
+                    bricks.Wall Finishing Interior walls & ceiling:
+                    POP.Exterior: Single Coat primer with double coat of
+                    Weatherproof (Asian paints or eq.). Vitrified Tiles
+                    ,Aluminum sliding with normal glass / Casement( Hindalco
+                    glass or eq.)
+                  </p>
+                </div>
+                <div class="table">
+                  <table>
+                    <tr>
+                      <th>Configuration</th>
+                      <th>Chargeable area</th>
+                    </tr>
+                    <tr>
+                      <td>2 BHK</td>
+                      <td>838-950 sq.ft</td>
+                    </tr>
+                    <tr>
+                      <td>3 BHK</td>
+                      <td>1076-1463 sq.ft</td>
+                    </tr>
+                  </table>
+                </div>
+              </div> -->
+                    <div class="col-md-12">
+                      <div class="image">
+                        <a href="img/Devaloke Sonarcity kamalgachi-BL- 20 - 22.webp">
+                          <img src="img/Devaloke Sonarcity kamalgachi-BL- 20 - 22.webp" alt="" /></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="row">
+          <div class="col-md-12">
+            <div class="pickup">
+              <p class="h2-top-txt" data-aos="fade-up">
+                Pickup & Drop Service Available
+              </p>
+              <div class="cta-btn" data-aos="fade-down" data-aos-delay="500">
+                <button
+                  class="btn my-2 my-sm-0"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal1"
+                  type="submit"
+                >
+                  SCHEDULE A PICKUP
+                </button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+          </div>
+        </div>
+      </div>
+
+      <!--============ pricing start =========-->
+      <!-- <div class="section pricing" id="pricing">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="heading">
+                <p class="h2-top-txt" data-aos="fade-up">Price Breakup</p>
+                <h2 data-aos="fade-up">Enjoy The Best Rates!</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="table">
+                      <table>
+                        <tr data-aos="fade-up">
+                          <th>Configuration</th>
+                          <th>Chargeable area</th>
+                          <th>Price</th>
+                          <th>Price Breakup</th>
+                        </tr>
+                        <tr data-aos="fade-up">
+                          <td>2 BHK</td>
+                          <td>838-950 sq.ft</td>
+                          <td>44 to 54 Lakh Onwards</td>
+                          <td>
+                            <a class="btn my-2 my-sm-0 bigtxt" href="#" data-bs-toggle="modal"
+                              data-bs-target="#exampleModal1">PRICE BREAKUP</a>
+                          </td>
+                        </tr>
+                        <tr data-aos="fade-up" data-aos-delay="100">
+                          <td>3 BHK</td>
+                          <td>1076-1463 sq.ft</td>
+                          <td>62 to 78 Lakh Onwards</td>
+                          <td>
+                            <a class="btn my-2 my-sm-0 bigtxt" href="#" data-bs-toggle="modal"
+                              data-bs-target="#exampleModal1">PRICE BREAKUP</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- =========photo galary start ===========-->
+
+      <!-- ========galary start============= -->
+
+      <div class="section gallery padtop" id="gallery" data-aos="flip-left">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="heading">
+                <p class="h2-top-txt" data-aos="fade-up">Gallery</p>
+                <h2 data-aos="fade-up" class="pt-3">One Place, Many Things</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="gallery-img" data-aos="fade-up" data-aos-delay="100">
+                <a href="img/h1.png">
+                  <img class="img-fluid img-height-min" src="img/h1.png" alt="" />
+                </a>
+                <!-- <div class="content">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div> -->
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="gallery-img" data-aos="fade-up" data-aos-delay="300">
+                <a href="img/h2.png">
+                  <img class="img-fluid img-height-min" src="img/h2.png" alt="" />
+                </a>
+                <!-- <div class="content">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div> -->
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="gallery-img" data-aos="fade-up" data-aos-delay="500">
+                <a href="img/h3.png">
+                  <img class="img-fluid img-height-min" src="img/h3.png" alt="" />
+                </a>
+                <!-- <div class="content">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div> -->
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="gallery-img" data-aos="fade-up" data-aos-delay="500">
+                <a href="img/h4.png">
+                  <img class="img-fluid img-height" src="img/h4.png" alt="" />
+                </a>
+                <!-- <div class="content">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div> -->
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="gallery-img" data-aos="fade-up" data-aos-delay="500">
+                <a href="img/h5.png">
+                  <img class="img-fluid img-height" src="img/h5.png" alt="" />
+                </a>
+                <!-- <div class="content">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="image-outer image-magni">
+              <div class="cta-btn">
+                <a class="btn my-2 my-sm-0" href="img/h6.png" type="button">MORE IMAGES</a>
+                <a href="img/h7.png"></a>
+                <a href="img/h8.png"></a>
+                <a href="img/h9.png"></a>
+                <a href="img/h10.png"></a>
+                <a href="img/h11.png"></a>
+                <a href="img/h12.png"></a>
+                <a href="img/h13.png"></a>
+                <a href="img/h14.png"></a>
+                <a href="img/h15.png"></a>
+                <a href="img/h16.png"></a>
+                <a href="img/h17.png"></a>
+                <a href="img/h18.png"></a>
+                <!--<a href="img/g5.webp"></a>-->
+              </div>
+            </div>
+          </div>
+          <!-- <div class="row mt-3">
+                <div class="col-md-12 text-center mt-4">
+                    <a href="#" class="p-btn mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        GET A CONSULTATION
+                    </a>
+                    <a href="#" class="p-btn" data-bs-toggle="modal" data-bs-target="#exampleModal1">DOWNLOAD
+                        BROCHURE</a>
+                </div>
+            </div> -->
+        </div>
+      </div>
+
+      <!--============devloper details========== -->
+
+      <div id="contact" class="section contact bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="heading">
+                <p class="h2-top-txt " data-aos="fade-up">CONTACT US
+                </p>
+                <h2 data-aos="fade-up " class="pt-3">An International abode in Calcutta</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="polka"></div>
+          <div class="row">
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="row justify-content-center">
+                  <div class="col-md-8 pb-4">
+                    <div class="form" data-aos="fade-up" data-aos-delay="300">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h3>Enquiry Form</h3>
+                          <!-- <h3>Send us any Enquire</h3> -->
+                        </div>
+                      </div>
+                      <form id="myForm" action="mail.html" method="post">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="mb-md-3 mb-1">
+                              <input type="text" class="form-control" tabindex="1" name="firstname" id="firstname" placeholder="First Name*" required />
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="mb-md-3 mb-1">
+                              <input type="text" class="form-control" tabindex="2" name="lastname" id="lastname" placeholder="Last Name*" required />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="mb-md-3 mb-1">
+                          <input type="tel" class="form-control" name="phone" tabindex="3" id="mob" placeholder="Enter Your Mobile Number*" pattern="[6-9]{1}[0-9]{9}" required />
+                        </div>
+                        <div class="mb-md-3 mb-1">
+                          <input type="email" class="form-control" name="email" tabindex="4" id="email" placeholder="Enter Your Email*" required />
+                        </div>
+                        <!--<div class="mb-md-3 mb-1">-->
+                        <!--  <select class="form-control form-select" tabindex="5" aria-label="Default select example"-->
+                        <!--    id="flattype" name="flattype" required>-->
+                        <!--    <option value="" disabled="disabled" selected>-->
+                        <!--      Select Flat Type*-->
+                        <!--    </option>-->
+                        <!--    <option value="2BHK">2BHK</option>-->
+                        <!--    <option value="3BHK">3BHK</option>-->
+
+                        <!--  </select>-->
+                        <!--</div>-->
+
+                        <!--<div class="mb-3">-->
+                        <!--  <textarea class="form-control" id="bodytext" cols="30" rows="3" placeholder="Send Us a Message"-->
+                        <!--    tabindex="6" name="message"></textarea>-->
+                        <!--</div>-->
+                        <div class="d-grid">
+                          <button type="submit" class="btn btn-secondary" onclick="sendEmail()" value="Send An Email">
+                            Enquire Now
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <!-- <div class="col-md-6">
+                    <div class="video-box pb-3" data-aos="fade-up" data-aos-delay="500">
+                      <iframe width="100%" height="315" src="https://www.youtube.com/embed/U8P6AHgALmg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div class="vedio-text justify-content-center">
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- devloper details -->
+
+      <!-- housing.com -->
+      <!-- <div class="section housing">
+        <div class="container">
+            <div class="housing-img">
+                <a href="https://housing.com/in/buy/projects/page/225959" target="_blank">
+                    <img src="img/housing.webp" class="img-fluid" alt="">
+                </a>
+            </div>
+        </div>
+    </div> -->
+      <!-- housing.com -->
+
+      <!-- =========location start ===========-->
+      <div class="section location-gmap mt-5" id="map">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="heading">
+                <p class="h2-top-txt" data-aos="fade-up">HERE WE ARE</p>
+                <h2 data-aos="fade-up" class="pt-3">Find Us</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="iframe-map" data-aos="zoom-in" data-aos-delay="100">
+          <!-- <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117966.62374170298!2d88.31824658883393!3d22.487031020831463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027217f6e4974b%3A0xee06bf268f54240f!2sDEVALOKE%20SONAR%20CITY!5e0!3m2!1sen!2sin!4v1680248115814!5m2!1sen!2sin"
+            width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy"></iframe> -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d117896.49620991723!2d88.351766!3d22.569171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0276f91dd9c90f%3A0x665c9539b57866f8!2s7%2C%20Convent%20Rd%2C%20Sealdah%2C%20Entally%2C%20Kolkata%2C%20West%20Bengal%20700014%2C%20India!5e0!3m2!1sen!2sus!4v1692181998432!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <!-- =========location end ===========-->
+
+      <!-- bottom form start -->
+      <!-- <div class="form-btn float-end d-none d-lg-block">
+    <div class="container">
+      <form class="form" action="mail.html" method="post">
+        <div class="flt-from">
+          <input type="text" placeholder="Name*" name="firstname" required />
+        </div>
+        <div class="flt-from">
+          <input type="text" placeholder="Mobile*" name="phone" required />
+        </div>
+        <div class="flt-from">
+          <input type="text" placeholder="Email*" name="email" required />
+        </div>
+        <div class="flt-from">
+          <select tabindex="5" aria-label="Default select example" id="flattype" name="flattype" required>
+            <option value="" disabled="disabled" selected>
+              Select Flat Type*
+            </option>
+            <option value="3BHK">3BHK</option>
+            <option value="2BHK">2BHK</option>
+          </select>
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </div> -->
+      <!-- bottom form start -->
+
+      <!-- ==================foooter start -============-->
+      <div class="footer" data-aos="fade-up" data-aos-delay="100">
+        <div class="container pt-4">
+          <div class="row align-items-start mt-md-4">
+            <div class="col-md-6">
+              <div class="footer-menu">
+                <h3 data-aos="fade-up" data-aos-delay="100">Menu Links</h3>
+                <div class="d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div>
+                    <ul>
+                      <li><a href="#"> Home</a></li>
+                      <li><a href="#overview"> Overview</a></li>
+                      <li><a href="#flattype"> Floor Plan</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <ul>
+                      <li><a href="#gallery"> Gallery</a></li>
+                      <li><a href="#spacifications">Specification</a></li>
+                      <li><a href="#map"> Location</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="add">
+                <h3 data-aos="fade-up" data-aos-delay="100">Address</h3>
+                <p data-aos="fade-up" data-aos-delay="100">
+                  7, Convent Rd, Sealdah, Entally, Kolkata, West Bengal 700014
+                </p>
+                <a href="tel:+919831578000" data-aos="fade-up" data-aos-delay="100"><i class="las la-phone me-3 mb-3"></i>8037835837</a><br />
+                <!-- <a href="mailto:contactus@dtcgroup.in"><i
+                            class="las la-envelope me-3 mb-3"></i>contactus@dtcgroup.in</a><br> -->
+                <a href="" class="btn btn-secondary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">Enquire Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="line-foo"></div>
+          <div class="row copy">
+            <div class="col-md-12">
+              <div class="d-flex justify-content-between">
+                <a href="#">&#169; Copyright 2023
+                  <!-- <span><a href="privacy.html">Privacy & Policy</a></span></a> -->
+                  <!-- <a href="#">Terms & Conditions</a> -->
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer end -->
+
+      <!--bottom form-->
+      <div class="form-btn float-end d-none d-lg-block">
+        <div class="container">
+          <form class="form" action="mail.html" method="post">
+            <div class="flt-from">
+              <input type="text" placeholder="Name*" name="firstname" required />
+            </div>
+            <div class="flt-from">
+              <input type="text" placeholder="Mobile*" name="phone" pattern="[6-9]{1}[0-9]{9}" required />
+            </div>
+            <div class="flt-from">
+              <input type="text" placeholder="Email*" name="email" required />
+            </div>
+            <!--<div class="flt-from">-->
+            <!--  <select tabindex="5" aria-label="Default select example" id="flattype" name="flattype" required>-->
+            <!--    <option value="" disabled="disabled" selected>-->
+            <!--      Select Flat Type*-->
+            <!--    </option>-->
+            <!--    <option value="2BHK">2BHK</option>-->
+            <!--    <option value="3BHK">3BHK</option>-->
+
+            <!--  </select>-->
+            <!--</div>-->
+            <button class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <!--bottom form-->
+
+      <!-- Modal Enquire -->
+      <div class="modal fade enquire-modal" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+            <div class="container-fluid g-0 pe-md-3">
+              <div class="row">
+                <!-- <div class="col-md-8">
+              <img class="img-fluid modal-ban" src="img/house2.webp" alt="" />
+            </div> -->
+                <div class="col-md-12 py-md-4 my-md-3 my-1 py-2">
+                  <div class="form">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <!-- <h3>Level up your brand</h3>
+                                      <p>You can reach us anytime via <a href="mailto:info@scarletsplendour.com">info@scarletsplendour.com</a> </p> -->
+                        <h3>Get a call back</h3>
+                      </div>
+                    </div>
+                    <form id="myForm" action="mail.html" method="post">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="mb-md-3 mb-1">
+                            <input type="text" class="form-control" tabindex="1" name="firstname" id="firstname" placeholder="First Name*" required />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="mb-md-3 mb-1">
+                            <input type="text" class="form-control" tabindex="2" name="lastname" id="lastname" placeholder="Last Name*" required />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mb-md-3 mb-1">
+                        <input type="tel" class="form-control" name="phone" tabindex="3" id="mob" placeholder="Enter Your Mobile Number*" pattern="[6-9]{1}[0-9]{9}" required />
+                      </div>
+                      <div class="mb-md-3 mb-1">
+                        <input type="email" class="form-control" name="email" tabindex="4" id="email" placeholder="Enter Your Email*" required />
+                      </div>
+                      <!--<div class="mb-md-3 mb-1">-->
+                      <!--  <select class="form-control form-select" tabindex="5" aria-label="Default select example"-->
+                      <!--    id="flattype" name="flattype" required>-->
+                      <!--    <option value="" disabled="disabled" selected>-->
+                      <!--      Select Flat type*-->
+                      <!--    </option>-->
+                      <!--    <option value="2BHK">2BHK</option>-->
+                      <!--    <option value="3BHK">3BHK</option>-->
+
+                      <!--  </select>-->
+                      <!--</div>-->
+
+                      <!--<div class="mb-3">-->
+                      <!--  <textarea class="form-control" id="bodytext" cols="30" rows="3" placeholder="Send Us a Message"-->
+                      <!--    tabindex="6" name="message"></textarea>-->
+                      <!--</div>-->
+
+                      <div class="d-grid">
+                        <button type="submit" class="btn btn-secondary" onclick="sendEmail()" value="Send An Email">
+                          Enquire Now
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal form start -->
+
+      <!-- Modal download brochure -->
+      <div class="modal fade enquire-modal" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="container-fluid g-0 pe-md-3">
+              <div class="row">
+                <!-- <div class="col-md-8">
+              <img class="img-fluid modal-ban" src="img/house2.webp" alt="" />
+            </div> -->
+                <div class="col-md-12">
+                  <div class="form">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <!-- <h3>Level up your brand</h3>
+                                 <p>You can reach us anytime via <a href="mailto:info@scarletsplendour.com">info@scarletsplendour.com</a> </p> -->
+                        <h3>Download the Brochure</h3>
+                      </div>
+                    </div>
+                    <form id="myForm" action="mail.html" method="post">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="mb-md-3 mb-1">
+                            <input type="text" class="form-control" tabindex="1" name="firstname" id="firstname" placeholder="First Name*" required />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="mb-md-3 mb-1">
+                            <input type="text" class="form-control" tabindex="2" name="lastname" id="lastname" placeholder="Last Name*" required />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="mb-md-3 mb-1">
+                        <input type="tel" class="form-control" name="phone" tabindex="3" id="mob" placeholder="Enter Your Mobile Number*" pattern="[6-9]{1}[0-9]{9}" required />
+                      </div>
+                      <div class="mb-md-3 mb-1">
+                        <input type="email" class="form-control" name="email" tabindex="4" id="email" placeholder="Enter Your Email*" required />
+                      </div>
+                      <!--<div class="mb-md-3 mb-1">-->
+                      <!--  <select class="form-control form-select" tabindex="5" aria-label="Default select example"-->
+                      <!--    id="flattype" name="flattype" required>-->
+                      <!--    <option value="" disabled="disabled" selected>-->
+                      <!--      Select Flat Type*-->
+                      <!--    </option>-->
+                      <!--    <option value="2BHK">2BHK</option>-->
+                      <!--    <option value="3BHK">3BHK</option>-->
+                      <!--  </select>-->
+                      <!--</div>-->
+
+                      <!--<div class="mb-3">-->
+                      <!--  <textarea class="form-control" id="bodytext" cols="30" rows="3" placeholder="Send Us a Message"-->
+                      <!--    tabindex="6" name="message"></textarea>-->
+                      <!--</div>-->
+
+                      <div class="d-grid">
+                        <button type="submit" class="btn btn-secondary" onclick="sendEmail()" value="Send An Email">
+                          Download Brochure
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--============ modal download brochure end ============-->
+
+      <!-- Modal popup  -->
+      <div class="modal fade enquire-modal" id="basicModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+          <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+            <div class="container-fluid g-0 pe-md-3">
+              <div class="row">
+                <!-- <div class="col-md-8">
+              <img class="img-fluid modal-ban" src="img/house2.webp" alt="" />
+            </div> -->
+                <div class="col-md-12 py-md-4 my-md-3 my-1 py-2">
+                  <div class="form">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <!-- <h3>Level up your brand</h3>
+                                      <p>You can reach us anytime via <a href="mailto:info@scarletsplendour.com">info@scarletsplendour.com</a> </p> -->
+                        <h3>Get a call back</h3>
+                      </div>
+                    </div>
+                    <form id="myForm" action="mail.html" method="post">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="mb-md-3 mb-1">
+                            <input type="text" class="form-control" tabindex="1" name="firstname" id="firstname" placeholder="First Name*" required />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="mb-md-3 mb-1">
+                            <input type="text" class="form-control" tabindex="2" name="lastname" id="lastname" placeholder="Last Name*" required />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mb-md-3 mb-1">
+                        <input type="tel" class="form-control" name="phone" tabindex="3" id="mob" placeholder="Enter Your Mobile Number*" pattern="[6-9]{1}[0-9]{9}" required />
+                      </div>
+                      <div class="mb-md-3 mb-1">
+                        <input type="email" class="form-control" name="email" tabindex="4" id="email" placeholder="Enter Your Email*" required />
+                      </div>
+                      <!--<div class="mb-md-3 mb-1">-->
+                      <!--  <select class="form-control form-select" tabindex="5" aria-label="Default select example"-->
+                      <!--    id="flattype" name="flattype" required>-->
+                      <!--    <option value="" disabled="disabled" selected>-->
+                      <!--      Select Flat type*-->
+                      <!--    </option>-->
+                      <!--    <option value="2BHK">2BHK</option>-->
+                      <!--    <option value="3BHK">3BHK</option>-->
+
+                      <!--  </select>-->
+                      <!--</div>-->
+
+                      <!--<div class="mb-3">-->
+                      <!--  <textarea class="form-control" id="bodytext" cols="30" rows="3" placeholder="Send Us a Message"-->
+                      <!--    tabindex="6" name="message"></textarea>-->
+                      <!--</div>-->
+
+                      <div class="d-grid">
+                        <button type="submit" class="btn btn-secondary" onclick="sendEmail()" value="Send An Email">
+                          Enquire Now
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal popup end -->
+
+      <!-- ==========jquerry cdn======= -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <!-- =========================bootstrap================= -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+      <!-- ============aos js cdn================-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <!-- ==========magnific pop-up============= -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <!-- ======================owl carrousel================================== -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+
+      <script>
+        AOS.init({
+          offset: 20,
+        });
+      </script>
+
+      <script>
+        var vid = document.getElementById("myVideo");
+
+        function playVid() {
+          vid.play();
+          vid.volume = 0.2;
+        }
+
+        function pauseVid() {
+          vid.pause();
+        }
+      </script>
+
+      <script>
+        $(".image").magnificPopup({
+          delegate: "a", // child items selector, by clicking on it popup will open
+          type: "image",
+          // other options
+        });
+      </script>
+
+      <script>
+        $(".gallery-img").magnificPopup({
+          delegate: "a", // child items selector, by clicking on it popup will open
+          type: "image",
+          // other options
+        });
+      </script>
+
+      <!-- popup from -->
+      <!-- <script type="text/javascript">
+        $(window).on("load", function () {
+          $("#basicModal").modal("show");
+        });
+      </script> -->
+      <!-- popup from -->
+
+      <script>
+        //         $(document).ready(function() {
+        //   $('.image-magni').magnificPopup({type:'image'});
+        // });
+        $(document).ready(function() {
+          $(".image-magni").magnificPopup({
+            delegate: "a",
+            type: "image",
+            tLoading: "Loading image #%curr%...",
+            mainClass: "mfp-img-mobile",
+            gallery: {
+              enabled: true,
+              navigateByImgClick: true,
+              preload: [0, 1], // Will preload 0 - before current, and 1 after the current image
+            },
+            image: {
+              tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+            },
+          });
+        });
+      </script>
+      <script>
+        viewButton = document.querySelectorAll("#less");
+        viewButton.forEach(element => {
+          element.addEventListener("click", viewMore);
+
+          function viewMore() {
+            var ami = element.innerHTML;
+            if (ami == "VIEW MORE") {
+              element.innerHTML = "VIEW LESS";
+              element.style.transition = "all 0.3s";
+            } else {
+              element.innerHTML = "VIEW MORE";
+              element.style.transition = "all 0.3s";
+            }
+          }
+        });
+      </script>
+
+
+
+      <script>
+        $(".big-carrousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          nav: false,
+          dot: false,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 1,
+            },
+            1000: {
+              items: 1,
+            },
+          },
+        });
+      </script>
+
+      <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 500 ||
+            document.documentElement.scrollTop > 500
+          ) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+
+      <script>
+        //   var myCarousel = document.querySelector('#carouselExampleSlidesOnly')
+        //      var carousel = new bootstrap.Carousel(myCarousel, {
+        //      interval: 2000,
+        //      wrap: false
+        // })
+      </script>
+</body>
+
+</html>
